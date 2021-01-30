@@ -18,5 +18,5 @@ stages:
       continueOnError: true
       inputs:
         script: 'newman run StarterAPIs.json'
-        workingDirectory: 'pipelines-javascript/tests/'
+        workingDirectory:  $(System.DefaultWorkingDirectory)
     
